@@ -10,7 +10,7 @@ function show_menu_mobile(){
 		body.classList.add('blocked');
 	}
 }
-const carrusell = document.querySelector(".carruse-items");
+const carrusell = document.querySelector(".carrusell-items");
 
 let maxScrollLeft = carrusell.scrollWidth - carrusell.clientWidth;
 let intervalo = null;

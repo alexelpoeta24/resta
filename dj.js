@@ -10,17 +10,17 @@ function show_menu_mobile(){
 		body.classList.add('blocked');
 	}
 }
-const carrusell = document.querySelector(".carruse-items");
+const car = document.querySelector(".car-items");
 
-let maxScrollLeft = carrusell.scrollWidth - carrusell.clientWidth;
+let maxScrollLeft = car.scrollWidth - car.clientWidth;
 let intervalo = null;
 let step = 1;
 const start = () => {
   intervalo = setInterval(function () {
-    carrusell.scrollLeft = carrusell.scrollLeft + step;
+    car.scrollLeft = car.scrollLeft + step;
     if (carrusell.scrollLeft === maxScrollLeft) {
       step = step * -1;
-    } else if (carrusell.scrollLeft === 0) {
+    } else if (carrusel.scrollLeft === 0) {
       step = step * -1;
     }
   }, 10);

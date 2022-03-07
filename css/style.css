@@ -199,17 +199,18 @@ body,html{
 	height: calc(100vh - var(--header-height));	
 	position: relative;
 	background-position: center;
-	background-image: url('../assets/img/banner_1.jpg');
+	background-image: url('../assets/img/abanner_1.jpg');
 	background-size: cover;
-	animation: banner 15s infinite linear;
+	animation: banner 20s infinite linear;
 }
+
 .banner-body{
 	position: relative;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	height: 100%;
+	height: 80%;
 	color: #FFF;
 	font-family: 'poppinsregular';
 	text-align: center;
@@ -224,33 +225,33 @@ body,html{
 }
 @keyframes banner{
 	0%{
-		background-image: url('../assets/img/banner_1.jpg');
+		background-image: url(https://i0.wp.com/www.puntogeek.com/wp-content/uploads/2009/10/evolucion-celulares.jpg);
 	}
 	33%{
-		background-image: url('../assets/img/banner_1.jpg');
+		background-image: url(https://i0.wp.com/www.puntogeek.com/wp-content/uploads/2009/10/evolucion-celulares.jpg);
 	}
 
 
 	34%{
-		background-image: url('../assets/img/banner_2.jpg');
+		background-image: url(http://www.unidiversidad.com.ar/upload/historia-del-celular-31.jpg);
 	}
 	66%{
-		background-image: url('../assets/img/banner_2.jpg');
+		background-image: url(http://www.unidiversidad.com.ar/upload/historia-del-celular-31.jpg);
 	}
 
 
 	67%{
-		background-image: url('../assets/img/banner_3.jpg');
+		background-image: url(https://www.estrategiaynegocios.net/csp/mediapool/sites/dt.common.streams.StreamServer.cls?STREAMOID=7KA4246XfZHzZhi1tnJzYs$daE2N3K4ZzOUsqbU5sYt8IgfS_fT$YrStx0VP7Xb26FB40xiOfUoExWL3M40tfzssyZqpeG_J0TFo7ZhRaDiHC9oxmioMlYVJD0A$3RbIiibgT65kY_CSDiCiUzvHvODrHApbd6ry6YGl5GGOZrs-&CONTENTTYPE=image/jpeg);
 	}
 	100%{
-		background-image: url('../assets/img/banner_3.jpg');
+		background-image: url(https://fscl01.fonpit.de/userfiles/6727621/image/2016/Samsung-galaxy-Note-7/AndroidPIT-Samsung-Galaxy-Note7-event-5181.jpg);
 	}
 
 }
 
 /* Footer */
 .footer{
-	border-top: 1px solid #E1E1E1;
+	border-top: 1px solid #cf1f1f;
 	padding: 70px 0 40px 0;
 	font-family: 'poppinsregular', sans-serif;
 	background-color: rgb(251, 251, 251);
@@ -482,7 +483,79 @@ body,html{
 		width: 100%;
 		text-align: center;
 	}
+
 	#main-body.blocked{
 		overflow: hidden;
 	}
+}
+.carruse {
+	height: 80vh;
+	display: flex;
+	align-items: center;
+  }
+  
+  .carruse-items {
+	display: flex;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	padding: 20px 0px;
+  }
+  
+  .carruse-item {
+	min-width: 300px;
+	max-width: 300px;
+	min-height: 300px;
+	max-height: 300px;
+	outline: 2px solid black;
+	cursor: pointer;
+  }
+  
+  .carruse-item img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+  }
+  
+  .carruse-item:hover {
+	transform: scale(2.2);
+  }
+
+
+
+  
+  .carrusellf {
+	height: 40vh;
+	display: flex;
+	align-items: center;
+  }
+  
+  .carrusell-itemsf {
+	display: flex;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	padding: 30px 0px;
+  }
+  
+  .carrusell-itemf {
+	min-width: 300px;
+	max-width: 300px;
+	min-height: 100px;
+	max-height: 300px;
+	outline: 2px solid black;
+	cursor: pointer;
+  }
+  
+  .carrusell-itemf img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+  }
+  
+  .carrusellf-item:hover {
+	transform: scale(1.2);
+  }
+  #titulov{
+	padding-top: 0px;
+	color: red;
+	text-align: center;
 }
